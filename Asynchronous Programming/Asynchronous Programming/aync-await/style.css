@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background: rgb(238,174,202);
+background: linear-gradient(90deg, rgba(238,174,202,1) 4%, rgba(150,189,236,1) 100%);
+}
+
+.main-header{
+    display: flex;
+    justify-self:center;
+    align-items: center;
+    height: 100vh;
+}
+
+.button{
+    background-color: green;
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    color: white;
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+
+
+.outputdiv-after{
+   background-color: white;
+   padding: 20px;
+}
+
+.output-after{
+width:500px;
+font-size: 20px;
+
+height: 400px;
+overflow-y: scroll;
+}
