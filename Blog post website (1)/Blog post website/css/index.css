@@ -1,0 +1,40 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+
+}
+body{
+    background-color: rgb(211, 209, 209);
+}
+
+.navigationbar{
+    display:flex;
+    justify-content:center;
+    background-color:grey;
+}
+
+.navigationbar a{
+    padding:10px;
+    text-decoration:none;
+    color:black;
+    font-size:20px;
+}
+
+.navigationbar a:hover{
+    cursor:pointer;
+}
+
+#heading{
+    margin:10px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+#paragraph{
+    margin:10px;
+    font-size:20px;
+    line-height:1.5;
+    word-spacing:5px;
+    text-align: center;    
+}

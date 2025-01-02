@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.mainheader{
+    margin: 20px;
+    padding: 20px;
+    box-shadow:0.3em 0.3em 1em gray ;
+}
+
+.aboutheading{
+    text-decoration: underline;
+}
+
+.aboutparagraph{
+    padding: 10px;
+    letter-spacing: 2px;
+    text-align: justify;
+}
+
+.mainsection{
+    background-color: rgb(219, 216, 216);
+    margin: 20px;
+    padding: 20px;
+}
+
+.mainsectionheader{
+    text-decoration: underline;
+}
+.formsection{
+    padding: 10px;
+}
+#Name{
+    margin-left: 10px;
+    padding: 5px;
+    display:inline-block;
+    width: 50%;
+    font-size: 15px;
+
+}
+
+#email{
+    margin-left: 10px;
+    padding: 5px;
+    display:inline-block;
+    width: 50%;
+    font-size: 15px;
+}
+
+#message{
+    margin-left: 10px;
+    padding: 5px;
+    display:inline-block;
+    width: 50%;
+    font-size: 15px;
+}
+
+#button{
+  margin-left: 10px;
+  margin-bottom: 5px;
+  width: 80px;
+  height: 25px;
+  background-color: rgb(65, 64, 64);
+  color: white;
+}
+
+label{
+    padding: 10px;
+}
+
+.profilesection{
+    margin-left: 20px;
+}
+
+.footersection{
+    background-color: gray;
+    padding: 10px;
+}
+
+.footerpara{
+    text-align: center;
+}

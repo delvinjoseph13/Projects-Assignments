@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(211, 209, 209);
+}
+
+.heading1{
+    background-color: grey;
+    padding: 10px;
+}
+
+.headingtext1{
+    text-align: center;
+}
+
+.article1{
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+    border: 2px solid black;
+    
+}
+
+.mainsection{
+    display: flex;
+    padding: 20px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.section1{
+    border: 2px solid black;
+    margin: 10px;
+    padding: 10px;
+}
+
+.lists{
+    padding: 15px;
+}
+
+#headingtext2{
+    text-decoration: underline;
+}
+
+#headingtext3{
+    text-decoration: underline;
+}
+
+#paragraph{
+    padding-top: 10px;
+    text-align: justify;
+}
+
+.article1{
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid black;
+    height: 400px;
+}
+
+#image{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+    transition: all 2s ease-in-out;
+}
+
+#image:hover{
+    width: 320px;
+    height: 320px;
+}
+
+@media (max-width:600px) {
+    #image{
+        height: 230px;
+    }
+}
+
+@media (min-width:1500px)  {
+    #youtubevideo{
+        width: 600px;
+        height: 350px;
+        margin: 50px;
+    }
+}
+
+.section3{
+    border: 2px solid black;
+    padding: 5px;
+}
+
+@media (min-width:1000px) {
+    .section3{
+        border: none;
+    }
+}
+
+.footerparagraph{
+    background-color: grey;
+    padding: 10px;
+
+}
+
+.footerpara{
+    text-align: center;
+}

@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(211, 209, 209);
+}
+
+
+.mainheader{
+    background-color: grey;
+    padding: 10px;
+}
+
+#headingtext1{
+    text-align: center;
+}
+
+.mainsection{
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.article-1{
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid black;
+    height: 400px;
+}
+
+.headertext1{
+    text-decoration: underline;
+}
+
+.paragraph{
+    letter-spacing: 2px;
+    text-align: justify;
+    padding-top: 10px;
+}
+
+#image{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+    width: 280px;
+    height: 280px;
+    border-radius: 30px;
+    transition: all 2s ease-in-out;
+   }
+   
+   #image:hover{
+       width: 300px;
+       height: 300px;
+   }
+
+   .section1{
+    margin: 10px;
+    border: 2px solid black;
+    padding: 20px;
+    height: 400px;
+}
+
+.headingtext2{
+    text-decoration: underline;
+}
+
+.list{
+    padding: 10px;
+}
+
+iframe{
+    margin: 5px;
+}
+
+.section3{
+    border: 2px solid black;
+    padding: 5px;
+}
+
+@media (min-width:1000px) {
+    .section3{
+        border: none;
+    }
+}
+
+@media (min-width:1500px)  {
+    #youtubevideo{
+        width: 600px;
+        height: 350px;
+        margin: 50px;
+    }
+}
+
+@media (max-width:600px) {
+    #image{
+        height: 230px;
+    }
+}
+
+.footersection{
+    background-color: grey;
+    padding: 10px;
+}
+
+.footerpara{
+  text-align: center;
+}

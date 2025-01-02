@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(211, 209, 209);
+}
+
+.headingheader{
+    background-color: grey; 
+    padding: 10px;
+}
+
+#heading{  
+  text-align: center;
+}
+
+#heading2{
+    text-decoration: underline;
+}
+
+#paragraph{
+    letter-spacing: 2px;
+    text-align: justify;
+    padding-top: 10px;
+}
+
+.heading3{
+    text-decoration: underline;
+}
+
+@media (min-width:1500px)  {
+    #youtubevideo{
+        width: 600px;
+        height: 350px;
+        margin: 50px;
+    }
+}
+
+
+#image{
+ padding: 10px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ object-fit: cover;
+ width: 300px;
+ height: 300px;
+ border-radius: 30px;
+ transition: all 2s ease-in-out;
+}
+
+#image:hover{
+    width: 320px;
+    height: 320px;
+}
+
+@media (max-width:600px) {
+    #image{
+        height: 230px;
+    }
+}
+
+.article-1{
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid black;
+    height: 400px;
+}
+
+
+.mainclass{
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.list{
+    padding: 10px;
+}
+.section1{
+    margin: 10px;
+    border: 2px solid black;
+    padding: 20px;
+    height: 400px;
+}
+
+iframe{
+    margin: 5px;
+}
+
+.section3{
+    border: 2px solid black;
+    padding: 5px;
+}
+
+@media (min-width:1000px) {
+    .section3{
+        border: none;
+    }
+}
+
+.footer{
+    background-color: grey;
+    padding: 10px;
+}
+
+.footerparagraph{
+    text-align: center;
+}
